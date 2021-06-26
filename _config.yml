@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Aaron Xavier"
 title_separator          : "-"
 name                     : &name "Aaron"
-description              : &description "personal description"
+description              : &description "Engineer, Aspiring Roboticist(TBD)"
 url                      : https://aaronxavier.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "aaronxavier/aaronxavier.github.io"
@@ -57,9 +57,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter "aaronxcode"
 facebook:
-  username               :
+  username               : &facebook "aaronxcode"
   app_id                 :
   publisher              :
 og_image                 :  # Open Graph/Twitter default site image
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Aaron Xavier"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Engineer, Aspiring Roboticist"
   location         : "Kerala, India"
   employer         : "AugSense Lab"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  email            : "aaronxavier999@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -99,10 +99,10 @@ author:
   github           : "aaronxavier"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "aaronxcode"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/aaron-xavier/"
+  linkedin         : "aaron-xavier"
   orcid            : "https://orcid.org/0000-0002-5214-0078"
   pinterest        :
   soundcloud       :
