@@ -11,21 +11,21 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Tech. in Electricak and Electronics Engineering, APJ Abdul Kalam Technological University, 2019
+* M.Eng. in Embedded Systems, Fachhochschule Dortmund, 2023 (expected)
+//* Ph.D in Version Control Theory, GitHub University, 2018 
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Dec 2019 - Aug 2021: Research Engineer
+  * AugSense Lab
+  * Duties included: Computer Vision, Atmospheric Physics
+  * Supervisor: Soorej E
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* June 2018 - Aug 2018: Internsip
+  * QuEST Global Engineering Services
+  * Duties included: Embedded Systems Development
+  * Supervisor: Sijo Joseph
   
 Skills
 ======
