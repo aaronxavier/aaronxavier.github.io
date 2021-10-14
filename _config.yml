@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Aaron Xavier"
-  avatar           : "profile.jpg"
+  avatar           : "profile.jpeg"
   bio              : "Engineer, Aspiring Roboticist"
   location         : "Dortmund, Germany"
   employer         : "Fachhochschule Dortmund"
@@ -97,7 +97,7 @@ author:
   facebook         :
   foursquare       :
   github           : "aaronxavier"
-  google_plus      :
+  google_plus      :git
   keybase          :
   instagram        : "aaronxcode"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
