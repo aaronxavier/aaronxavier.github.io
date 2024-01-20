@@ -9,27 +9,25 @@ redirect_from:
 
 {% include base_path %}
 
-======
-
 Education
 ======
 * Master of Engineering (M.Eng.) in Embedded Systems, Fachhochschule Dortmund, 2024
-* Bachelor of Technology (B.Tech.) in Electricak and Electronics Engineering, APJ Abdul Kalam Technological University, 2019
-* Primary and High Scholing in Navy Children School, Kochi, 2015
+* Bachelor of Technology (B.Tech.) in Electrical and Electronics Engineering, APJ Abdul Kalam Technological University, 2019
+* Primary and High Schooling in Navy Children School, Kochi, 2015
 
 Work experience
 ======
 * **Nov 2023 - Present: Master Thesis, Robotics**
 
   Robert Bosch GmbH, [Bosch Research](https://www.bosch.com/research/), Renningen 
-  * Developing a behavior tree based deliberative architecture for AGVs to incorporate better [separation-of-concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) between the systems and improve expressivenss and verifiability of behaviors.
+  * Developing a behavior tree based deliberative architecture for AGVs to incorporate better [separation-of-concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) between the systems and improve expressiveness and verifiability of behaviors.
   * System
   * Supervisor: Christian Henkel [linkedin](https://www.linkedin.com/in/henkelchristian/) [email](mailto:henkel.christian@de.bosch.com)
 
 * **May 2023 - Nov 2023: Internship, Image Processing**
 
   Robert Bosch GmbH, Leonberg
-  * Developed a pipleine for the generation of 3D ground truth for Lane Detection networks. Extensively used 2D and 3D computer vision libraries for the surface estimation and the ray-tracing modules in the system.
+  * Developed a pipline for the generation of 3D ground truth for Lane Detection networks. Extensively used 2D and 3D computer vision libraries for the surface estimation and the ray-tracing modules in the system.
   * Supervisor: Maximilian Pittner [linkedin](https://www.linkedin.com/in/maximilian-pittner/) [email](mailto:maximilian.pittner@de.bosch.com)
 
 * **May 2022 - May 2023: Research Assistant, Robotics**
@@ -39,7 +37,7 @@ Work experience
   * Delivered a [talk](/_talks/2012-03-01-talk-1.md) on the various robotic systems that were used in the lab.
   * Developed course modules for a subject *Software4Robots*.
   * Integrated a SLAM sensor (ZED2) and a stabilization platform on the laboratory UAV.
-  * Supervisor: Merlin Stampa [email](mailto:merlin.stampa@fh-dortmund.de) [zuegnis](/files/zuegnis.pdf)
+  * Supervisor: Merlin Stampa [email](mailto:merlin.stampa@fh-dortmund.de) [zeugnis](/files/zuegnis.pdf)
 
 * **Dec 2019 - Aug 2021: Research Engineer**
 
@@ -60,7 +58,7 @@ Skills
 * Programming Languages
   * Python (Fluent)
   * C++
-  * C (Acedemic proficiency)
+  * C (Academic proficiency)
 
 * Frameworks, Libraries and Tools
   * ROS & ROS2
