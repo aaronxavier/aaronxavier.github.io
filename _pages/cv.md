@@ -34,7 +34,7 @@ Work experience
   * Supervisor: Merlin Stampa [email](mailto:merlin.stampa@fh-dortmund.de)
 
 * Dec 2019 - Aug 2021: Research Engineer
-  * AugSenseLab [homepage](www.augsenslab.com)
+  * AugSenseLab [homepage](https://www.augsenselab.com)
   * Developed an image processing and learning based pipeline, that modelled non-rigid cloud movement and improved the performance of a weather prediction framework by 20% (CSI). Manuscript published in [TechRxiv]().
   * Integrated a SLAM algorithm (ORBSLAM2) on a mobile robot.
   * Designed a drone-based testbed for an atmospheric refractivity sensor suite.
