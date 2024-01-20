@@ -3,7 +3,7 @@ title: "Radio-Zenith Interferometry-Based Reconstruction of Refractivity Profile
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
 date: 2021-07-01
-venue: 'International GeoScience and Reomte Sensing Symposium'
+venue: 'International Geoscience and Reomte Sensing Symposium'
 
 citation: 'Bastian, Blossom & Meena, V. & Vidyadharan, Divya & Ragh, Ajay & Joseph, Nithin & Xavier, Aaron & Chittilapilly, Naveen. (2021). Radio-Zenith Interferometry-Based Reconstruction of Refractivity Profile Using Signals from LEO Constellation. 7103-7106. 10.1109/IGARSS47720.2021.9553249. '
 ---
