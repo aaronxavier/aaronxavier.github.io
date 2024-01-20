@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+======
+
 Education
 ======
 * Master of Engineering (M.Eng.) in Embedded Systems, Fachhochschule Dortmund, 2024
