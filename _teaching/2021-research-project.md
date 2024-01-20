@@ -4,7 +4,7 @@ collection: teaching
 type: "Research Project"
 permalink: /teaching/2021-research-project
 venue: "Fachhochschule Dortmund"
-date: 2023-08
+date: 2023-08-01
 location: "Dortmund, Germany"
 ---
 
