@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Aaron Xavier"
-excerpt: "About me"
+excerpt: "Aaron Xavier"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
