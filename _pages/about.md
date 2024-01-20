@@ -7,4 +7,4 @@ redirect_from:
   - /about/
   - /about.html
 ---
-An enthusiastic master student and robotics engineer with 3.5 years of experience of building robots and robotic system
+An enthusiastic master student and robotics engineer with 3.5 years of experience of building robots and robotic systems. 

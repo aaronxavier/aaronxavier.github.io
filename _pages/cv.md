@@ -22,6 +22,21 @@ Work experience
   * Duties included: Computer Vision, Atmospheric Physics
   * Supervisor: Soorej E
 
+* May 2023 - Nov 2023: Internship
+  * AugSense Lab
+  * Duties included: Computer Vision, Atmospheric Physics
+  * Supervisor: Soorej E
+
+* May 2022 - May 2023: Research Assistant
+  * Institut für die Digitalisierung von Arbeits- und Lebenswelten - [IDiAL](https://www.fh-dortmund.de/microsite/idial/index.php)
+  * Duties included: Computer Vision, Atmospheric Physics
+  * Supervisor: Merlin Stampa ([email](mailto:merlin.stampa@fh-dortmund.de))
+
+* Dec 2019 - Aug 2021: Research Engineer
+  * AugSense Lab
+  * Duties included: Computer Vision, Atmospheric Physics
+  * Supervisor: Soorej E
+
 * June 2018 - Aug 2018: Internsip
   * QuEST Global Engineering Services
   * Duties included: Embedded Systems Development
