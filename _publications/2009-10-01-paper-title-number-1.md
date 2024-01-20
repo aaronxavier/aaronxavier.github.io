@@ -1,15 +1,9 @@
 ---
-title: "Paper Title Number 1"
+title: "Precipitation Nowcasting using Data-driven Reduced-order Model"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+
+paperurl: 'https://www.researchgate.net/publication/351588920_Precipitation_Nowcasting_using_Data-driven_Reduced-order_Model'
+citation: 'Vidyadharan, Divya & Xavier, Aaron & Bastian, Blossom & Ragh, Ajay & Chittilapilly, Naveen. (2021). Precipitation Nowcasting using Data-driven Reduced-order Model. 10.36227/techrxiv.14540343.v1. '
 ---
-This paper is about the number 1. The number 2 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+[Download paper here](https://www.techrxiv.org/doi/full/10.36227/techrxiv.14540343.v1)

@@ -17,30 +17,30 @@ Education
 
 Work experience
 ======
-* Nov 2023 - Present: Master Thesis, Robotics
+* **Nov 2023 - Present: Master Thesis, Robotics**
   * Robert Bosch GmbH, [Bosch Research](https://www.bosch.com/research/), Renningen 
   * Developing a behavior tree based deliberative architecture for AGVs to incorporate better [separation-of-concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) between the systems and improve expressivenss and verifiability of behaviors.
   * System
   * Supervisor: Christian Henkel [linkedin](https://www.linkedin.com/in/henkelchristian/) [email](mailto:henkel.christian@de.bosch.com)
 
-* May 2023 - Nov 2023: Internship, Image Processing
+* **May 2023 - Nov 2023: Internship, Image Processing**
   * Robert Bosch GmbH, Leonberg
-  * Duties included: Computer Vision, Atmospheric Physics
+  * Developed a pipleine for the generation of 3D ground truth
   * Supervisor: Maximilian Pittner [linkedin](https://www.linkedin.com/in/maximilian-pittner/) [email](mailto:maximilian.pittner@de.bosch.com)
 
-* May 2022 - May 2023: Research Assistant, Robotics
+* **May 2022 - May 2023: Research Assistant, Robotics**
   * Institut für die Digitalisierung von Arbeits- und Lebenswelten - [IDiAL](https://www.fh-dortmund.de/microsite/idial/index.php)
   * Duties included: Computer Vision, Atmospheric Physics
   * Supervisor: Merlin Stampa [email](mailto:merlin.stampa@fh-dortmund.de)
 
-* Dec 2019 - Aug 2021: Research Engineer
+* **Dec 2019 - Aug 2021: Research Engineer**
   * AugSenseLab [homepage](https://www.augsenselab.com)
-  * Developed an image processing and learning based pipeline, that modelled non-rigid cloud movement and improved the performance of a weather prediction framework by 20% (CSI). Manuscript published in [TechRxiv]().
+  * Developed an image processing and learning based pipeline, that modelled non-rigid cloud movement and improved the performance of a weather prediction framework by 20% (CSI). Manuscript in [ResearchGate](https://www.researchgate.net/publication/351588920_Precipitation_Nowcasting_using_Data-driven_Reduced-order_Model).
   * Integrated a SLAM algorithm (ORBSLAM2) on a mobile robot.
   * Designed a drone-based testbed for an atmospheric refractivity sensor suite.
   * Manager: Soorej Kumar [linkedin](https://www.linkedin.com/in/soorejkumar/) [email](mailto:soorej@augsenselab.com)
  
-* June 2018 - Aug 2018: Internsip
+* **June 2018 - Aug 2018: Internship**
   * QuEST Global Engineering Services
   * Developed a benchmark system for 3D reconstruction systems and tested it on an embedded computer (NVIDIA Jetson TX1)
   * Supervisor: Sijo Mathew [linkedin](https://www.linkedin.com/in/sijomathewk/)
@@ -56,7 +56,8 @@ Skills
   * ROS & ROS2
   * OpenCV
   * Open3D
-  * NumPy, SciPy, PIL, PCL, matplotlib
+  * PCL
+  * NumPy, SciPy, PIL, matplotlib
   * MATLAB
   * Fusion360
 
