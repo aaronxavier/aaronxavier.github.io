@@ -7,6 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-An enthusiastic master student and robotics engineer with 3.5 years of experience of building complex and intelligent robots and robotic systems. Currently finishing up my masters in embedded systems from Fachhochschule Dortmund.
+An enthusiastic master student and robotics engineer with 3.5 years of experience of building complex, safe, explainable and reliable robots and robotic systems. Currently writing my final thesis with Bosch Research in Behavior Definition for Robots, and finishing up my masters in Embedded Systems from Fachhochschule Dortmund.
 
-Use the links on the title bar to bowse through my work and feel free to reach out to me via [email](mailo:aaronxcode@outlook.com). 
+My core interest lies in the domain of Computer Vision. Imparting the sense of vision to the robotic systems that we design has always thrilled me to the core. This interest has driven me through most of my [experiences](/cv/).
+
+Use the links on the title bar to browse through my work and feel free to reach out to me via [email](mailo:aaronxcode@outlook.com). 
