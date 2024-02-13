@@ -74,19 +74,27 @@ Skills
   * Windows
   * MacOS (not preferred, but can work with all UNIX-type machines)
 
+Projects
+======
+  <ul>{% for post in site.projects %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Service and leadership
 ======
-* Served as an advisor to unversity STEM and robotics team.
-* 
+* Served as an advisor to university STEM and robotics team.
+* Volunteered as the technical coordinator for the university robotics team.
+* Delivered lectures on higher-education opportunities in STEM for high-school students.
+* Volunteered for relief activities in the flood-affected areas of Kerala by designing and developing reusable emergency battery packs.
+
+Honours and Awards
+======
+* Best Project Award - Humanoid Robot (2019)
+* Best Innovator Award - Dynamic Traffic Management System (2017)
+* Best Local Network - (awarded to the robotics team) (2017)
