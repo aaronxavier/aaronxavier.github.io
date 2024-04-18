@@ -24,7 +24,21 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .header img {
+            max-height: 100px;
+            width: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
         h1,
         h2,
         h3 {
@@ -67,8 +81,11 @@
 
 <body>
     <div class="container">
-        <header>
+        <div class="header">
             <h1>Aaron Xavier</h1>
+            <img src="_files/img.jpeg" alt="Cover Picture">
+        </div>
+        <header>
             <div class="contact-info">
                 <p>Stuttgart, DE</p>
                 <p>Reachable via <a
