@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,225 +8,58 @@
     <style>
         body {
             font-family: "Computer Modern", "Latin Modern", sans-serif;
-            font-size: 11pt;
-            margin: 0.5;
+            margin: 1;
             padding: 0;
             background-color: #f0f0f0;
             color: #333;
+            text-align: center; /* Center align content */
         }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .header {
+        .cover {
+            background-image: url('cover_image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
             display: flex;
+            flex-direction: column;
+            justify-content: center;
             align-items: center;
-            justify-content: space-between;
-            margin-bottom: 20px;
+            text-align: center;
+            color: #000000;
+            padding: 20px;
         }
-        .header h1 {
-            margin: 0;
+        h1, h2, h3 {
+            color: #000000;
+            margin: 1;
         }
-        .header img {
-            max-height: 100px;
-            width: auto;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1,
-        h2,
-        h3 {
-            color: #333;
-        }
-
-        h2 {
-            border-bottom: 2px solid #ccc;
-            padding-bottom: 5px;
+        h1 {
+            font-size: 2.5rem;
             margin-bottom: 10px;
         }
-
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
         .contact-info {
             margin-bottom: 20px;
         }
-
-        .experience,
-        .education,
-        .projects,
-        .awards,
-        .skills {
-            margin-bottom: 30px;
+        .contact-info p {
+            margin: 5px 1;
         }
-
-        .section-title {
-            font-size: 1.2rem;
-            margin-bottom: 10px;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        a {
-            color: #007bff;
+        .contact-info a {
+            color: #000000;
             text-decoration: none;
+            font-weight: bold;
         }
     </style>
 </head>
-
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Aaron Xavier</h1>
+    <div class="cover">
+        <h1>Aaron Xavier</h1>
+        <h2>Robotics, Embedded Systems</h2>
+        <div class="contact-info">
+            <p>Take a look at my <a href="resume.html"> Resume</a> or find me on <a href="https://www.linkedin.com/in/aaron-xavier/">LinkedIn</a></p>
+            <p>Reachable via <a href="mailto:aaron.xavier001@stud.fh-dortmund.de">aaron.xavier001@stud.fh-dortmund.de</a> and <a href="tel:+491745737242">+49 174 5737242</a></p>
         </div>
-        <header>
-            <div class="contact-info">
-                <p>Stuttgart, DE</p>
-                <p>Reachable via <a
-                        href="mailto:aaron.xavier001@stud.fh-dortmund.de">aaron.xavier001@stud.fh-dortmund.de</a> and <a
-                        href="tel:+491745737242">+49 174 5737242</a></p>
-            </div>
-            <p>Find me on <a href="https://www.linkedin.com/in/aaron-xavier/">LinkedIn</a></p>
-        </header>
-
-        <section class="experience">
-            <h2>Experience</h2>
-            <div class="job">
-                <h3>Robert Bosch GmbH</h3>
-                <h4>Master Thesis</h4>
-                <p>November 2023 - May 2024</p>
-                <p>Developed a behaviortree-based deliberative architecture for approaching navigation problems more
-                    expressively and to enable better separation-of-concerns within the architecture. Used C++
-                    extensively to develop the nodes and integrated them with ROS2 for testing the solutions in
-                    simulations and also on physical robots.</p>
-                <h4>Internship</h4>
-                <p>May 2023 - November 2023</p>
-                <p>Responsible for generating a pipeline for 3D GT generation using LiDAR-Camera sensor-fusion for
-                    automotive perception. Used ROS and Docker for data acquisition and processing pipeline. Performed
-                    surface estimation using spine-fitting methods and used a deep learning based method (LaneNet) for
-                    lane point estimation from image sequences.</p>
-            </div>
-
-            <div class="job">
-                <h3>Intelligent Mobile Systems Laboratory, FH Dortmund</h3>
-                <h4>Research Assistant</h4>
-                <p>May 2022 - April 2022</p>
-                <p>Responsible for integrating the 3D SLAM pipeline (RTAB-Map) onto the research hexacopter. Also
-                    performed software and hardware maintenance of UGVs/UAVs.</p>
-            </div>
-            <div class="job">
-                <h3>AugSense Lab, Trivandrum</h3>
-                <h4>Research Engineer</h4>
-                <p>December 2019 - August 2021</p>
-                <p>Developed a module that used a learning-based approach (SINDy) to improve the modeling of the
-                    non-rigid cloud motion and enhance weather prediction accuracy by 20-30%. Integrated 3D sensors on a
-                    test robot (TB3) and evaluated Visual SLAM algorithms on the platform.</p>
-            </div>
-        </section>
-
-
-        <section class="education">
-            <h2>Education</h2>
-            <div class="degree">
-                <h3>M. Eng in Embedded Systems Engineering</h3>
-                <h4>Fachhochschule Dortmund, DE</h4>
-                <p>October 2021 - PRESENT</p>
-            </div>
-            <div class="degree">
-                <h3>Erasmus+ Exchange Module in Low-power IoT Systems </h3>
-                <h4>KU Leuven, BE</h4>
-                <p>March 2022</p>
-            </div>
-            <div class="degree">
-                <h3>B.Tech in Electrical and Electronics Engineering</h3>
-                <h4>College of Engineering Trivandrum, IN</h4>
-                <p>August 2015 - May 2019</p>
-            </div>
-        </section>
-
-        <section class="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>An Evaluative Study of Spatial Map Building Algorithms (Academic)</h3>
-                <p>Studies the possibility of using RTAB-Map for a 3D mapping and reconstruction pipeline which can
-                    further be integrated into robotic systems for various applications. Benchmarking the system on an
-                    NVIDIA Jetson TX2 and ZED2 and implemented it on the laboratory UAV.</p>
-            </div>
-            <div class="project">
-                <h3>A Systems-based design of a Truck Platooning System</h3>
-                <p>Designed and developed a systems engineering model of a complex truck platooning system. Carried out
-                    the complete design process from requirement gathering, component and architecture design until
-                    system testing. Used SysML for the modelling tasks and eventually built the system using C++ (for
-                    multithreading) and Python for the application development.</p>
-            </div>
-            <div class="project">
-                <h3>Factory Inspection using 3D Computer Vision (Academic)</h3>
-                <p>Developed an SfM-based pipeline to build a 3D model of the region of interest which could be then
-                    used by maintenance staff to perform inspection remotely. The system was built and deployed using
-                    ROS on a Jetson Nano, the images being streamed to a local PC and run through OpenSfM to generate a
-                    3D point cloud of the scene.</p>
-            </div>
-            <div class="project">
-                <h3>Object Detection and Localization using Stereo Vision</h3>
-                <p>Developed a vision pipeline in MATLAB for object detection for a mobile ground robot using the ZED
-                    Mini. The system was able to generate a point cloud of the scene and extract the relevant object
-                    using color segmentation. The depth to the object was estimated and the 3D coordinates of the object
-                    were published onto the ROS network.</p>
-            </div>
-            <div class="project">
-                <h3>Multi-Agent Path Planning (in Simulation)</h3>
-                <p>Designed a waypoint-based path planning scheme in Python for a simulated work area with 3 agents
-                    working simultaneously to achieve a goal. Implemented Dijkstra's Algorithm for individual robots and
-                    implemented a rudimentary form of Travelling Salesman Problem to optimize traversed routes.</p>
-            </div>
-            <div class="project">
-                <h3>Autonomous Rover</h3>
-                <p>An autonomous robot capable of planning a path and navigating to the given target(s) while avoiding
-                    the obstacles in its path was developed. The system was based on an ESP32 platform and communicated
-                    with the localization setup on a local computer via AWS IoT. The firmware was written in C++ and
-                    used PlatformIO for interfacing with the microcontroller. The local computer used OpenCV for image
-                    processing and ARuco markers for border geometry estimation and rover localization.</p>
-                <p><a href="[link]">Link</a></p>
-            </div>
-        </section>
-
-
-        <section class="awards">
-            <h2>Awards</h2>
-            <ul>
-                <li>Granted a fellowship and incubated by K-DISC (Kerala Development and Innovation Strategy Council)
-                    for a Robot Snake project.</li>
-                <li>Won Best Project Award for Bipedal Humanoid Robot (Final Project - Bachelor’s Degree) during
-                    InnovExpo conducted by IEDC and TCS held at College of Engineering Trivandrum—05/2019</li>
-                <li>Won Best Innovator Award during the Annual Kanyakumari Local Network Meet conducted by The
-                    Institution of Engineering and Technology held at the College of Engineering Trivandrum.</li>
-                <li>Won the Subject Topper Award in Physics at the School Cluster. (Regional Level)</li>
-            </ul>
-        </section>
-
-
-        <section class="skills">
-            <h2>Skills</h2>
-            <li>Programming Languages - Python, C, C++, Matlab</li>
-            <li>Libraries - OpenCV, PCL, Open3D, NumPy, SciPy</li>
-            <li>ROS, ROS2</li>
-            <li>VCS - GitHub, GitLab, BitBucket</li>
-            <li>Embedded Development Boards - Nvidia Jetson (TX1, TX2, Nano), Raspberry Pi, Beaglebone, Arduino, ESP32,
-                STM32, Particle</li>
-            <li>Software Design Principles - Object-Oriented Programming (OOP), Design Patterns, Architectures</li>
-            <li>Operating Systems - Linux, Windows, macOS (Terminal user)</li>
-            <li>Microsoft Office - Word, Excel, PowerPoint</li>
-        </section>
-
-        <footer>
-            <p>Find me on <a href="https://www.linkedin.com/aaron-xavier">LinkedIn</a> and <a
-                    href="https://www.researchgate.net/">ResearchGate</a></p>
-        </footer>
     </div>
 </body>
-
 </html>
