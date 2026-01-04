@@ -4,71 +4,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aaron Xavier - Resume</title>
-    <link rel="stylesheet" href="https://latex.now.sh/style.min.css" />
-    <link rel="stylesheet" href="style.css" />
+    <title>Experience · Aaron Xavier</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="page">
+        <nav class="nav">
+            <div class="brand">
+                <span class="dot"></span>
+                <span>Aaron Xavier</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="resume.html">CV</a>
+                <a href="projects.html">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
 
-    <div class="container">
-        <section class="experience">
-            <h2>Experience</h2>
-            <div class="job">
-                <h3>Chair of Material Handling and Warehousing, TU Dortmund</h3>
-                <h4>Research Associate</h4>
-                <p>October 2024 - present</p>
-                <p>
-                    <li>Developed a heterogenous fleet manager to interact with drones and ground robots for logistics.</li>
-                </p>
+        <section class="section" id="experience">
+            <div class="section-header">
+                <h2>Experience</h2>
+                <a href="resume.html">CV view →</a>
             </div>
-            <div class="job">
-                <h3>Robert Bosch GmbH</h3>
-                <h4>Master Thesis</h4>
-                <p>November 2023 - May 2024</p>
-                <p>
-                    <li>Developed a behaviortree-based deliberative architecture for approaching navigation problems
-                        more
-                        expressively and to enable better separation-of-concerns within the architecture. </li>
-                    <li>Used C++ extensively to develop the nodes and integrated them with ROS2 for testing the
-                        solutions in
-                        simulations and also on physical robots.</li>
-                </p>
-                <h4>Internship</h4>
-                <p>May 2023 - November 2023</p>
-                <p>
-                    <li>Responsible for generating a pipeline for 3D GT generation using LiDAR-Camera sensor-fusion for
-                        automotive perception.</li>
-                    <li>Used ROS and Docker for data acquisition and processing pipeline.</li>
-                    <li>Performed surface estimation using spine-fitting methods and used a deep learning based method
-                        (LaneNet) for lane point estimation from image sequences.</li>
-                </p>
-            </div>
-
-            <div class="job">
-                <h3>Intelligent Mobile Systems Laboratory, FH Dortmund</h3>
-                <h4>Research Assistant</h4>
-                <p>May 2022 - April 2022</p>
-                <p>
-                    <li>Responsible for integrating the 3D SLAM pipeline (RTAB-Map) onto the research hexacopter.</li>
-                    <li>Also performed software and hardware maintenance of UGVs/UAVs.</li>
-                </p>
-            </div>
-            <div class="job">
-                <h3>AugSense Lab, Trivandrum</h3>
-                <h4>Research Engineer</h4>
-                <p>December 2019 - August 2021</p>
-                <p>
-                    <li>Developed a module that used a learning-based approach (SINDy) to improve the modeling of the
-                        non-rigid cloud motion and enhance weather prediction accuracy by 20-30%.</li>
-                    <li> Integrated 3D sensors on a
-                        test robot (TB3) and evaluated Visual SLAM algorithms on the platform.</li>
-                </p>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Research Associate — Chair of Material Handling and Warehousing, TU Dortmund</h4>
+                    <p class="meta">Oct 2024 – present</p>
+                    <ul class="list">
+                        <li>Developed a heterogeneous fleet manager to coordinate drones and ground robots for logistics use cases.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h4>Master Thesis — Robert Bosch GmbH</h4>
+                    <p class="meta">Nov 2023 – May 2024</p>
+                    <ul class="list">
+                        <li>Designed a behavior-tree-based deliberative architecture for expressive navigation strategies.</li>
+                        <li>Implemented C++ behavior tree nodes and integrated ROS2 for simulation and physical robot testing.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h4>Internship — Robert Bosch GmbH</h4>
+                    <p class="meta">May 2023 – Nov 2023</p>
+                    <ul class="list">
+                        <li>Generated a 3D ground truth pipeline using LiDAR-camera sensor fusion for automotive perception.</li>
+                        <li>Used ROS and Docker for data acquisition/processing; applied lane estimation (LaneNet) and surface fitting.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h4>Research Assistant — Intelligent Mobile Systems Laboratory, FH Dortmund</h4>
+                    <p class="meta">May 2022 – Apr 2022</p>
+                    <ul class="list">
+                        <li>Integrated 3D SLAM (RTAB-Map) onto a research hexacopter.</li>
+                        <li>Maintained and supported software/hardware for UGVs and UAVs.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h4>Research Engineer — AugSense Lab, Trivandrum</h4>
+                    <p class="meta">Dec 2019 – Aug 2021</p>
+                    <ul class="list">
+                        <li>Improved non-rigid cloud motion modeling with SINDy to enhance weather prediction accuracy.</li>
+                        <li>Integrated 3D sensors on a test robot and evaluated visual SLAM algorithms.</li>
+                    </ul>
+                </div>
             </div>
         </section>
 
-        <footer>
-            <p>Back to the <a href="resume.html">Resume</a></p>
+        <section class="section" id="contact">
+            <div class="section-header">
+                <h2>Contact</h2>
+            </div>
+            <div class="card">
+                <p>Email: <a href="mailto:aaron.xavier@tu-dortmund.de">aaron.xavier@tu-dortmund.de</a> · Phone: <a
+                        href="tel:+491745737242">+49 174 5737242</a> · LinkedIn: <a
+                        href="https://www.linkedin.com/in/aaron-xavier/">linkedin.com/in/aaron-xavier</a></p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            Experience view · <a href="index.html">Home</a> · <a href="projects.html">Projects</a> · <a
+                href="resume.html">CV</a>
         </footer>
     </div>
 </body>

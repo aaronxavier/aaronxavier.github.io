@@ -4,61 +4,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aaron Xavier - Resume</title>
-    <link rel="stylesheet" href="https://latex.now.sh/style.min.css" />
-    <link rel="stylesheet" href="style.css" />
+    <title>Projects · Aaron Xavier</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <section class="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>An Evaluative Study of Spatial Map Building Algorithms (Academic)</h3>
-                <p>Studies the possibility of using RTAB-Map for a 3D mapping and reconstruction pipeline which can
-                    further be integrated into robotic systems for various applications. Benchmarking the system on an
-                    NVIDIA Jetson TX2 and ZED2 and implemented it on the laboratory UAV.</p>
-                    <p><a href="_projects/rtabmap.html">Expand</a> for more info (demo, thesis and slides)</p>
+    <div class="page">
+        <nav class="nav">
+            <div class="brand">
+                <span class="dot"></span>
+                <span>Aaron Xavier</span>
             </div>
-            <div class="project">
-                <h3>A Systems-based design of a Truck Platooning System</h3>
-                <p>Designed and developed a systems engineering model of a complex truck platooning system. Carried out
-                    the complete design process from requirement gathering, component and architecture design until
-                    system testing. Used SysML for the modelling tasks and eventually built the system using C++ (for
-                    multithreading) and Python for the application development.</p>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="resume.html">CV</a>
+                <a href="projects.html">Projects</a>
+                <a href="#contact">Contact</a>
             </div>
-            <div class="project">
-                <h3>Factory Inspection using 3D Computer Vision (Academic)</h3>
-                <p>Developed an SfM-based pipeline to build a 3D model of the region of interest which could be then
-                    used by maintenance staff to perform inspection remotely. The system was built and deployed using
-                    ROS on a Jetson Nano, the images being streamed to a local PC and run through OpenSfM to generate a
-                    3D point cloud of the scene.</p>
+        </nav>
+
+        <section class="section" id="projects">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <a href="resume.html">CV view →</a>
             </div>
-            <div class="project">
-                <h3>Object Detection and Localization using Stereo Vision</h3>
-                <p>Developed a vision pipeline in MATLAB for object detection for a mobile ground robot using the ZED
-                    Mini. The system was able to generate a point cloud of the scene and extract the relevant object
-                    using color segmentation. The depth to the object was estimated and the 3D coordinates of the object
-                    were published onto the ROS network.</p>
-            </div>
-            <div class="project">
-                <h3>Multi-Agent Path Planning (in Simulation)</h3>
-                <p>Designed a waypoint-based path planning scheme in Python for a simulated work area with 3 agents
-                    working simultaneously to achieve a goal. Implemented Dijkstra's Algorithm for individual robots and
-                    implemented a rudimentary form of Travelling Salesman Problem to optimize traversed routes.</p>
-            </div>
-            <div class="project">
-                <h3>Path and Task planning of an Autonomous Rover using Markers</h3>
-                <p>An autonomous robot capable of planning a path and navigating to the given target(s) while avoiding
-                    the obstacles in its path was developed. The system was based on an ESP32 platform and communicated
-                    with the localization setup on a local computer via AWS IoT. The firmware was written in C++ and
-                    used PlatformIO for interfacing with the microcontroller. The local computer used OpenCV for image
-                    processing and ARuco markers for border geometry estimation and rover localization.</p>
-                <p><a href="_projects/rover.html">Expand</a> for demos</p>
+            <div class="grid">
+                <article class="card">
+                    <h3>An evaluative study of spatial map building algorithms</h3>
+                    <p>Simulated and deployed RTAB-Map on NVIDIA Jetson TX2 + ZED2 for indoor 3D reconstruction; pipeline
+                        integrated into ROS for aerial mapping.</p>
+                    <div class="tag-row">
+                        <span class="tag">RTAB-Map</span>
+                        <span class="tag">ROS</span>
+                        <span class="tag">Jetson</span>
+                    </div>
+                    <a class="btn secondary" href="_projects/rtabmap.html">Expand ↗</a>
+                </article>
+                <article class="card">
+                    <h3>A systems-based design of a truck platooning system</h3>
+                    <p>End-to-end systems engineering process: requirements, architecture, component design, and system
+                        testing; implemented using C++ multithreading and Python.</p>
+                    <div class="tag-row">
+                        <span class="tag">Systems Engineering</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <h3>Factory inspection using 3D computer vision</h3>
+                    <p>SfM-based pipeline to build 3D models for remote inspection; deployed with ROS on Jetson Nano,
+                        processed with OpenSfM on a remote PC.</p>
+                    <div class="tag-row">
+                        <span class="tag">SfM</span>
+                        <span class="tag">OpenSfM</span>
+                        <span class="tag">Jetson Nano</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <h3>Object detection and localization using stereo vision</h3>
+                    <p>MATLAB pipeline with ZED Mini to generate point clouds, segment targets via color, and publish 3D
+                        coordinates into ROS.</p>
+                    <div class="tag-row">
+                        <span class="tag">Stereo vision</span>
+                        <span class="tag">MATLAB</span>
+                        <span class="tag">ROS</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <h3>Multi-agent path planning (simulation)</h3>
+                    <p>Python waypoint-based planning for three agents in a shared work area, combining Dijkstra and
+                        basic TSP optimizations.</p>
+                    <div class="tag-row">
+                        <span class="tag">Path planning</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <h3>Path and task planning of an autonomous rover using markers</h3>
+                    <p>ESP32 rover with ARuco-based localization, AWS IoT messaging, and OpenCV vision on a host
+                        computer; executes navigation and task plans.</p>
+                    <div class="tag-row">
+                        <span class="tag">OpenCV</span>
+                        <span class="tag">AWS IoT</span>
+                        <span class="tag">ESP32</span>
+                    </div>
+                    <a class="btn secondary" href="_projects/rover.html">Expand ↗</a>
+                </article>
             </div>
         </section>
-        <footer>
-            <p>Back to the <a href="resume.html">Resume</a></p>
+
+        <section class="section" id="contact">
+            <div class="section-header">
+                <h2>Contact</h2>
+            </div>
+            <div class="card">
+                <p>For collaboration or speaking: <a href="mailto:aaron.xavier@tu-dortmund.de">aaron.xavier@tu-dortmund.de</a> · <a
+                        href="tel:+491745737242">+49 174 5737242</a>. Connect on <a
+                        href="https://www.linkedin.com/in/aaron-xavier/">LinkedIn</a>.</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            Portfolio view · <a href="index.html">Home</a> · <a href="resume.html">CV</a>
         </footer>
     </div>
 </body>

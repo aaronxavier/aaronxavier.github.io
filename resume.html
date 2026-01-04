@@ -4,134 +4,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aaron Xavier - Resume</title>
-    <link rel="stylesheet" href="https://latex.now.sh/style.min.css" />
+    <title>CV · Aaron Xavier</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Aaron Xavier</h1>
-        </div>
-        <header>
-            <div class="contact-info">
-                <p>Stuttgart, DE</p>
-                <p>Reachable via <a
-                        href="mailto:aaron.xavier@tu-dortmund.de">aaron.xavier@tu-dortmund.de</a> and <a
-                        href="tel:+491745737242">+49 174 5737242</a></p>
+    <div class="page">
+        <nav class="nav">
+            <div class="brand">
+                <span class="dot"></span>
+                <span>Aaron Xavier</span>
             </div>
-            <p>Find me on <a href="https://www.linkedin.com/in/aaron-xavier/">LinkedIn</a></p>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="resume.html">CV</a>
+                <a href="projects.html">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <div class="eyebrow"><span class="signal"></span> Curriculum Vitae</div>
+            <h1>Aaron Xavier.</h1>
+            <p class="lead">Roboticist, Tinkerer, DIY-enthusiast.</p>
         </header>
 
-        <section class="experience">
-            <h2>Experience</h2>
-            <div class="job">
-                <h3>FLW, TU Dortmund</h3>
-                <h4>Research Associate</h4>
-                <p>October 2024 - present</p>
+        <section class="section" id="experience">
+            <div class="section-header">
+                <h2>Experience</h2>
             </div>
-
-            <div class="job">
-                <h3>Robert Bosch GmbH</h3>
-                <h4>Master Thesis</h4>
-                <p>November 2023 - May 2024</p>
-                <h4>Internship</h4>
-                <p>May 2023 - November 2023</p>
-            </div>
-
-            <div class="job">
-                <h3>Intelligent Mobile Systems Laboratory, FH Dortmund</h3>
-                <h4>Research Assistant</h4>
-                <p>May 2022 - April 2022</p>
-            </div>
-            <div class="job">
-                <h3>AugSense Lab, Trivandrum</h3>
-                <h4>Research Engineer</h4>
-                <p>December 2019 - August 2021</p>
-            </div>
-
-            <div>
-                <p>More info on experiences <a href="experience.html">expand</a></p>
-            </div>
-        </section>
-
-
-        <section class="education">
-            <h2>Education</h2>
-            <div class="degree">
-                <h3>M. Eng in Embedded Systems Engineering</h3>
-                <h4>Fachhochschule Dortmund, DE</h4>
-                <p>October 2021 - PRESENT</p>
-            </div>
-            <div class="degree">
-                <h3>Erasmus+ Exchange Module in Low-power IoT Systems </h3>
-                <h4>KU Leuven, BE</h4>
-                <p>March 2022</p>
-            </div>
-            <div class="degree">
-                <h3>B.Tech in Electrical and Electronics Engineering</h3>
-                <h4>College of Engineering Trivandrum, IN</h4>
-                <p>August 2015 - May 2019</p>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Research Associate — Chair of Material Handling and Warehousing, TU Dortmund</h4>
+                    <p class="meta">Oct 2024 – present · Dortmund, DE</p>
+                    <ul class="list">
+                        <li>Developing a heterogeneous fleet manager coordinating drones and ground robots for logistics.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h4>Master Thesis — Robert Bosch GmbH</h4>
+                    <p class="meta">Nov 2023 – May 2024 · Stuttgart, DE</p>
+                    <ul class="list">
+                        <li>Designed a behavior-tree-based deliberative architecture to tackle navigation tasks with improved separation of concerns.</li>
+                        <li>Built C++ nodes and integrated with ROS2 for simulation and on-robot testing.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h4>Internship — Robert Bosch GmbH</h4>
+                    <p class="meta">May 2023 – Nov 2023 · Stuttgart, DE</p>
+                    <ul class="list">
+                        <li>Generated 3D ground truth via LiDAR-camera sensor fusion for automotive perception.</li>
+                        <li>Used ROS and Docker for data acquisition and processing; explored surface estimation and lane point detection.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h4>Research Assistant — Intelligent Mobile Systems Laboratory, FH Dortmund</h4>
+                    <p class="meta">May 2022 – Apr 2022 · Dortmund, DE</p>
+                    <ul class="list">
+                        <li>Integrated RTAB-Map SLAM onto a research hexacopter; maintained UGV/UAV platforms.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h4>Research Engineer — AugSense Lab</h4>
+                    <p class="meta">Dec 2019 – Aug 2021 · Trivandrum, IN</p>
+                    <ul class="list">
+                        <li>Improved non-rigid cloud motion modeling with learning-based methods (SINDy) for weather prediction.</li>
+                        <li>Integrated 3D sensors on test robots and evaluated visual SLAM algorithms.</li>
+                    </ul>
+                </div>
             </div>
         </section>
 
-        <section class="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <h5>An Evaluative Study of Spatial Map Building Algorithms (Academic)</h5>
+        <section class="section" id="education">
+            <div class="section-header">
+                <h2>Education</h2>
             </div>
-            <div class="project">
-                <h5>A Systems-based design of a Truck Platooning System</h5>
-            </div>
-            <div class="project">
-                <h5>Factory Inspection using 3D Computer Vision (Academic)</h5>
-            </div>
-            <div class="project">
-                <h5>Object Detection and Localization using Stereo Vision</h5>
-            </div>
-            <div class="project">
-                <h5>Multi-Agent Path Planning (in Simulation)</h5>
-            </div>
-            <div class="project">
-                <h5>Path and Task planning of an Autonomous Rover using Markers</h4>
-            </div>
-            <div>
-                <p>More info on projects <a href="projects.html">expand</a></p>
+            <div class="grid">
+                <article class="card">
+                    <h3>M. Eng in Embedded Systems Engineering</h3>
+                    <p class="meta">Fachhochschule Dortmund · Oct 2021 – present</p>
+                </article>
+                <article class="card">
+                    <h3>Erasmus+ Exchange Module, Low-power IoT Systems</h3>
+                    <p class="meta">KU Leuven · Mar 2022</p>
+                </article>
+                <article class="card">
+                    <h3>B. Tech in Electrical and Electronics Engineering</h3>
+                    <p class="meta">College of Engineering Trivandrum · Aug 2015 – May 2019</p>
+                </article>
             </div>
         </section>
 
-
-        <section class="awards">
-            <h2>Awards</h2>
-            <ul>
-                <li>Granted a fellowship and incubated by K-DISC (Kerala Development and Innovation Strategy Council)
-                    for a Robot Snake project.</li>
-                <li>Won Best Project Award for Bipedal Humanoid Robot (Final Project - Bachelor’s Degree) during
-                    InnovExpo conducted by IEDC and TCS held at College of Engineering Trivandrum—05/2019</li>
-                <li>Won Best Innovator Award during the Annual Kanyakumari Local Network Meet conducted by The
-                    Institution of Engineering and Technology held at the College of Engineering Trivandrum.</li>
-                <li>Won the Subject Topper Award in Physics at the School Cluster. (Regional Level)</li>
-            </ul>
+        <section class="section" id="projects">
+            <div class="section-header">
+                <h2>Selected projects</h2>
+                <a href="projects.html">View all →</a>
+            </div>
+            <div class="grid">
+                <article class="card">
+                    <h3>Spatial map building for indoor robotics</h3>
+                    <p>Evaluated RTAB-Map for 3D reconstruction, deployed on NVIDIA Jetson TX2 + ZED2, integrated with
+                        ROS for aerial mapping.</p>
+                    <a class="btn secondary" href="_projects/rtabmap.html">Demo & thesis ↗</a>
+                </article>
+                <article class="card">
+                    <h3>Autonomous rover via ARuco markers</h3>
+                    <p>ESP32-based rover performing path and task planning with marker-based localization; cloud
+                        messaging via AWS IoT.</p>
+                    <a class="btn secondary" href="_projects/rover.html">Watch demo ↗</a>
+                </article>
+                <article class="card">
+                    <h3>Truck platooning systems design</h3>
+                    <p>Systems engineering model for a truck platooning system from requirements through architecture,
+                        implemented in C++ and Python.</p>
+                </article>
+            </div>
         </section>
 
-
-        <section class="skills">
-            <h2>Skills</h2>
-            <li>Programming Languages - Python, C, C++, Matlab</li>
-            <li>Libraries - OpenCV, PCL, Open3D, NumPy, SciPy</li>
-            <li>ROS, ROS2</li>
-            <li>VCS - GitHub, GitLab, BitBucket</li>
-            <li>Embedded Development Boards - Nvidia Jetson (TX1, TX2, Nano), Raspberry Pi, Beaglebone, Arduino, ESP32,
-                STM32, Particle</li>
-            <li>Software Design Principles - Object-Oriented Programming (OOP), Design Patterns, Architectures</li>
-            <li>Operating Systems - Linux, Windows, macOS (Terminal user)</li>
-            <li>Microsoft Office - Word, Excel, PowerPoint</li>
+        <section class="section" id="awards">
+            <div class="section-header">
+                <h2>Awards</h2>
+            </div>
+            <div class="grid">
+                <article class="card">
+                    <h3>Robot Snake fellowship</h3>
+                    <p>Granted a fellowship and incubated by K-DISC for a robot snake project.</p>
+                </article>
+                <article class="card">
+                    <h3>Best Project Award — Bipedal Humanoid Robot</h3>
+                    <p>InnovExpo (IEDC/TCS) at College of Engineering Trivandrum.</p>
+                </article>
+                <article class="card">
+                    <h3>Best Innovator & Physics Subject Topper</h3>
+                    <p>Recognized by The Institution of Engineering and Technology; regional Physics award.</p>
+                </article>
+            </div>
         </section>
 
-        <footer>
-            <p>Find me on <a href="https://www.linkedin.com/in/aaron-xavier">LinkedIn</a> and <a
-                    href="https://www.researchgate.net/profile/Aaron-Xavier">ResearchGate</a></p>
+        <section class="section" id="skills">
+            <div class="section-header">
+                <h2>Skills</h2>
+            </div>
+            <div class="card">
+                <div class="tag-row">
+                    <span class="tag">Python</span>
+                    <span class="tag">C</span>
+                    <span class="tag">C++</span>
+                    <span class="tag">Matlab</span>
+                    <span class="tag">OpenCV</span>
+                    <span class="tag">PCL</span>
+                    <span class="tag">Open3D</span>
+                    <span class="tag">NumPy</span>
+                    <span class="tag">SciPy</span>
+                    <span class="tag">ROS</span>
+                    <span class="tag">ROS2</span>
+                    <span class="tag">GitHub / GitLab / Bitbucket</span>
+                    <span class="tag">Jetson TX1/TX2/Nano</span>
+                    <span class="tag">Raspberry Pi</span>
+                    <span class="tag">Beaglebone</span>
+                    <span class="tag">Arduino</span>
+                    <span class="tag">ESP32</span>
+                    <span class="tag">STM32</span>
+                    <span class="tag">Design patterns</span>
+                    <span class="tag">Linux / Windows / macOS</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="section-header">
+                <h2>Contact</h2>
+            </div>
+            <div class="card">
+                <p>Reachable via <a href="mailto:aaron.xavier@tu-dortmund.de">aaron.xavier@tu-dortmund.de</a> or <a
+                        href="tel:+491745737242">+49 174 5737242</a>. Find me on <a
+                        href="https://www.linkedin.com/in/aaron-xavier/">LinkedIn</a> and <a
+                        href="https://www.researchgate.net/profile/Aaron-Xavier">ResearchGate</a>.</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            Concise CV view · <a href="index.html">Home</a> · <a href="projects.html">Projects</a>
         </footer>
     </div>
 </body>
