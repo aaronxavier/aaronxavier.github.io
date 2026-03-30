@@ -14,101 +14,129 @@
 <body>
     <div class="page">
         <nav class="nav">
-            <div class="brand">
-                <span class="dot"></span>
-                <span>Aaron Xavier</span>
-            </div>
+            <a class="brand" href="index.html">Aaron Xavier</a>
             <div class="nav-links">
-                <a href="index.html">Home</a>
                 <a href="resume.html">CV</a>
                 <a href="projects.html">Projects</a>
-                <a href="#contact">Contact</a>
             </div>
         </nav>
 
-        <section class="section" id="projects">
+        <header class="hero">
+            <h1>Projects</h1>
+        </header>
+
+        <section class="section">
             <div class="section-header">
-                <h2>Projects</h2>
-                <a href="resume.html">CV view →</a>
+                <h2>Current</h2>
             </div>
-            <div class="grid">
-                <article class="card">
-                    <h3>An evaluative study of spatial map building algorithms</h3>
-                    <p>Simulated and deployed RTAB-Map on NVIDIA Jetson TX2 + ZED2 for indoor 3D reconstruction; pipeline
-                        integrated into ROS for aerial mapping.</p>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Drone swarm platform &mdash; Crazyswarm2 / ROS2</h4>
+                    <p class="meta">TU Dortmund &middot; 2024 &ndash; present</p>
+                    <p style="color:var(--muted); font-size:0.9rem;">Designing and building an end-to-end swarm system for intralogistics research. The platform handles swarm coordination, task allocation, and collision-safe operation of multiple Crazyflie drones in constrained warehouse spaces, using the Crazyswarm2 framework on ROS2.</p>
+                    <div class="tag-row">
+                        <span class="tag">Crazyswarm2</span>
+                        <span class="tag">ROS2</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">UAV swarms</span>
+                        <span class="tag">Task allocation</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <h4>Heterogeneous multi-robot demonstrators with WMS integration</h4>
+                    <p class="meta">TU Dortmund &middot; 2024 &ndash; present</p>
+                    <p style="color:var(--muted); font-size:0.9rem;">Building multiple physical demonstrators that combine UAVs and ground robots in shared logistics workflows. The system integrates at the WMS layer, enabling live task dispatching and real-time fleet state synchronisation — taking heterogeneous robotics from research prototype to near-industrial demonstrator.</p>
+                    <div class="tag-row">
+                        <span class="tag">ROS2</span>
+                        <span class="tag">Fleet management</span>
+                        <span class="tag">WMS integration</span>
+                        <span class="tag">UAV</span>
+                        <span class="tag">UGV</span>
+                        <span class="tag">Intralogistics</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <h2>Past</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Airborne 3D mapping &mdash; RTAB-Map on hexacopter</h4>
+                    <p class="meta">FH Dortmund &middot; 2022</p>
+                    <p style="color:var(--muted); font-size:0.9rem;">Ported and deployed RTAB-Map SLAM onto a research hexacopter with an NVIDIA Jetson TX2 and ZED2 stereo camera, enabling onboard real-time 3D reconstruction during flight. Integrated the mapping pipeline into ROS for aerial survey use cases.</p>
                     <div class="tag-row">
                         <span class="tag">RTAB-Map</span>
+                        <span class="tag">SLAM</span>
                         <span class="tag">ROS</span>
-                        <span class="tag">Jetson</span>
+                        <span class="tag">Jetson TX2</span>
+                        <span class="tag">ZED2</span>
                     </div>
-                    <a class="btn secondary" href="_projects/rtabmap.html">Expand ↗</a>
-                </article>
-                <article class="card">
-                    <h3>A systems-based design of a truck platooning system</h3>
-                    <p>End-to-end systems engineering process: requirements, architecture, component design, and system
-                        testing; implemented using C++ multithreading and Python.</p>
-                    <div class="tag-row">
-                        <span class="tag">Systems Engineering</span>
-                        <span class="tag">C++</span>
-                        <span class="tag">Python</span>
-                    </div>
-                </article>
-                <article class="card">
-                    <h3>Factory inspection using 3D computer vision</h3>
-                    <p>SfM-based pipeline to build 3D models for remote inspection; deployed with ROS on Jetson Nano,
-                        processed with OpenSfM on a remote PC.</p>
-                    <div class="tag-row">
-                        <span class="tag">SfM</span>
-                        <span class="tag">OpenSfM</span>
-                        <span class="tag">Jetson Nano</span>
-                    </div>
-                </article>
-                <article class="card">
-                    <h3>Object detection and localization using stereo vision</h3>
-                    <p>MATLAB pipeline with ZED Mini to generate point clouds, segment targets via color, and publish 3D
-                        coordinates into ROS.</p>
-                    <div class="tag-row">
-                        <span class="tag">Stereo vision</span>
-                        <span class="tag">MATLAB</span>
-                        <span class="tag">ROS</span>
-                    </div>
-                </article>
-                <article class="card">
-                    <h3>Multi-agent path planning (simulation)</h3>
-                    <p>Python waypoint-based planning for three agents in a shared work area, combining Dijkstra and
-                        basic TSP optimizations.</p>
-                    <div class="tag-row">
-                        <span class="tag">Path planning</span>
-                        <span class="tag">Python</span>
-                    </div>
-                </article>
-                <article class="card">
-                    <h3>Path and task planning of an autonomous rover using markers</h3>
-                    <p>ESP32 rover with ARuco-based localization, AWS IoT messaging, and OpenCV vision on a host
-                        computer; executes navigation and task plans.</p>
+                    <a class="btn" href="_projects/rtabmap.html">Demo &amp; thesis &rarr;</a>
+                </div>
+                <div class="timeline-item">
+                    <h4>Marker-guided autonomous rover</h4>
+                    <p class="meta">FH Dortmund &middot; 2022</p>
+                    <p style="color:var(--muted); font-size:0.9rem;">Designed an ESP32-based rover with full path and task planning from first principles. Localization via ARuco marker detection in OpenCV on a host PC; commands relayed over AWS IoT Core, giving the system a cloud-connected control loop with no on-board compute overhead.</p>
                     <div class="tag-row">
                         <span class="tag">OpenCV</span>
                         <span class="tag">AWS IoT</span>
                         <span class="tag">ESP32</span>
+                        <span class="tag">Path planning</span>
                     </div>
-                    <a class="btn secondary" href="_projects/rover.html">Expand ↗</a>
-                </article>
-            </div>
-        </section>
-
-        <section class="section" id="contact">
-            <div class="section-header">
-                <h2>Contact</h2>
-            </div>
-            <div class="card">
-                <p>For collaboration or speaking: <a href="mailto:aaron.xavier@tu-dortmund.de">aaron.xavier@tu-dortmund.de</a> · <a
-                        href="tel:+491745737242">+49 174 5737242</a>. Connect on <a
-                        href="https://www.linkedin.com/in/aaron-xavier/">LinkedIn</a>.</p>
+                    <a class="btn" href="_projects/rover.html">Watch demo &rarr;</a>
+                </div>
+                <div class="timeline-item">
+                    <h4>Truck platooning system &mdash; full systems engineering lifecycle</h4>
+                    <p class="meta">FH Dortmund &middot; 2022</p>
+                    <p style="color:var(--muted); font-size:0.9rem;">Took a truck platooning system through a complete model-based systems engineering process: requirements capture, system architecture, component design, and integration testing. Implemented the core coordination layer in C++ with multithreading and Python for simulation and analysis.</p>
+                    <div class="tag-row">
+                        <span class="tag">Systems engineering</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Multithreading</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <h4>Factory inspection via 3D computer vision</h4>
+                    <p class="meta">FH Dortmund &middot; 2022</p>
+                    <p style="color:var(--muted); font-size:0.9rem;">Built an SfM-based pipeline to reconstruct factory environments as 3D models for remote visual inspection. Deployed data capture with ROS on a Jetson Nano; reconstruction offloaded to a workstation running OpenSfM.</p>
+                    <div class="tag-row">
+                        <span class="tag">Structure from Motion</span>
+                        <span class="tag">OpenSfM</span>
+                        <span class="tag">Jetson Nano</span>
+                        <span class="tag">ROS</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <h4>3D object localization from stereo vision</h4>
+                    <p class="meta">FH Dortmund &middot; 2022</p>
+                    <p style="color:var(--muted); font-size:0.9rem;">Developed a MATLAB pipeline using a ZED Mini stereo camera to generate dense point clouds, segment objects by color, and publish 3D target coordinates directly into ROS for downstream robot use.</p>
+                    <div class="tag-row">
+                        <span class="tag">Stereo vision</span>
+                        <span class="tag">MATLAB</span>
+                        <span class="tag">Point clouds</span>
+                        <span class="tag">ROS</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <h4>Multi-agent path planning</h4>
+                    <p class="meta">FH Dortmund &middot; 2022</p>
+                    <p style="color:var(--muted); font-size:0.9rem;">Implemented collision-aware waypoint planning for three agents sharing a workspace. Combined Dijkstra shortest-path with a lightweight TSP heuristic to minimise total travel distance while avoiding inter-agent conflicts.</p>
+                    <div class="tag-row">
+                        <span class="tag">Path planning</span>
+                        <span class="tag">Dijkstra</span>
+                        <span class="tag">TSP</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </div>
             </div>
         </section>
 
         <footer class="footer">
-            Portfolio view · <a href="index.html">Home</a> · <a href="resume.html">CV</a>
+            <a href="index.html">Home</a> &middot; <a href="resume.html">CV</a>
         </footer>
     </div>
 </body>

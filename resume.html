@@ -14,22 +14,17 @@
 <body>
     <div class="page">
         <nav class="nav">
-            <div class="brand">
-                <span class="dot"></span>
-                <span>Aaron Xavier</span>
-            </div>
+            <a class="brand" href="index.html">Aaron Xavier</a>
             <div class="nav-links">
-                <a href="index.html">Home</a>
                 <a href="resume.html">CV</a>
                 <a href="projects.html">Projects</a>
-                <a href="#contact">Contact</a>
             </div>
         </nav>
 
         <header class="hero">
-            <div class="eyebrow"><span class="signal"></span> Curriculum Vitae</div>
-            <h1>Aaron Xavier.</h1>
-            <p class="lead">Roboticist, Tinkerer, DIY-enthusiast.</p>
+            <h1>Curriculum Vitae</h1>
+            <p class="lead">Aaron Xavier &mdash; Research Associate, TU Dortmund</p>
+            <p class="lead"><a href="mailto:aaron.xavier@tu-dortmund.de">aaron.xavier@tu-dortmund.de</a> &middot; <a href="https://www.linkedin.com/in/aaron-xavier/">LinkedIn</a> &middot; <a href="https://www.researchgate.net/profile/Aaron-Xavier">ResearchGate</a></p>
         </header>
 
         <section class="section" id="experience">
@@ -38,41 +33,44 @@
             </div>
             <div class="timeline">
                 <div class="timeline-item">
-                    <h4>Research Associate — Chair of Material Handling and Warehousing, TU Dortmund</h4>
-                    <p class="meta">Oct 2024 – present · Dortmund, DE</p>
+                    <h4>Research Associate &mdash; Chair of Material Handling and Warehousing (FLW), TU Dortmund</h4>
+                    <p class="meta">Oct 2024 &ndash; present &middot; Dortmund, DE</p>
                     <ul class="list">
-                        <li>Developing a heterogeneous fleet manager coordinating drones and ground robots for logistics.</li>
+                        <li>Architecting a drone swarm system on Crazyswarm2/ROS2, covering swarm coordination, task allocation, and collision-safe operation in warehouse environments.</li>
+                        <li>Building a series of heterogeneous multi-robot demonstrators (UAVs + UGVs), from low-level robot integration through to WMS interfaces — bridging academic research and industrial deployment.</li>
+                        <li>Designing the fleet management layer that dispatches tasks across robot types and synchronises state with a live warehouse management system in real time.</li>
                     </ul>
                 </div>
                 <div class="timeline-item">
-                    <h4>Master Thesis — Robert Bosch GmbH</h4>
-                    <p class="meta">Nov 2023 – May 2024 · Stuttgart, DE</p>
+                    <h4>Master Thesis &mdash; Robert Bosch GmbH</h4>
+                    <p class="meta">Nov 2023 &ndash; May 2024 &middot; Stuttgart, DE</p>
                     <ul class="list">
-                        <li>Designed a behavior-tree-based deliberative architecture to tackle navigation tasks with improved separation of concerns.</li>
-                        <li>Built C++ nodes and integrated with ROS2 for simulation and on-robot testing.</li>
+                        <li>Architected a behavior-tree-based deliberative system for mobile robot navigation, replacing monolithic planners with a composable, maintainable pipeline.</li>
+                        <li>Implemented and validated C++/ROS2 behavior tree nodes in Gazebo simulation and on physical hardware, demonstrating clean separation across planning and execution layers.</li>
                     </ul>
                 </div>
                 <div class="timeline-item">
-                    <h4>Internship — Robert Bosch GmbH</h4>
-                    <p class="meta">May 2023 – Nov 2023 · Stuttgart, DE</p>
+                    <h4>Internship &mdash; Robert Bosch GmbH</h4>
+                    <p class="meta">May 2023 &ndash; Nov 2023 &middot; Stuttgart, DE</p>
                     <ul class="list">
-                        <li>Generated 3D ground truth via LiDAR-camera sensor fusion for automotive perception.</li>
-                        <li>Used ROS and Docker for data acquisition and processing; explored surface estimation and lane point detection.</li>
+                        <li>Developed an automated 3D ground truth pipeline using LiDAR-camera sensor fusion, enabling high-quality labeled data for automotive perception model training.</li>
+                        <li>Containerised the full pipeline with Docker and integrated it into ROS-based workflows; applied LaneNet and surface fitting for lane structure understanding.</li>
                     </ul>
                 </div>
                 <div class="timeline-item">
-                    <h4>Research Assistant — Intelligent Mobile Systems Laboratory, FH Dortmund</h4>
-                    <p class="meta">May 2022 – Apr 2022 · Dortmund, DE</p>
+                    <h4>Research Assistant &mdash; Intelligent Mobile Systems Lab, FH Dortmund</h4>
+                    <p class="meta">May 2022 &ndash; Apr 2023 &middot; Dortmund, DE</p>
                     <ul class="list">
-                        <li>Integrated RTAB-Map SLAM onto a research hexacopter; maintained UGV/UAV platforms.</li>
+                        <li>Ported and deployed RTAB-Map SLAM onto a research hexacopter, enabling onboard 3D mapping for aerial platforms — a first for the lab.</li>
+                        <li>Maintained the lab's mixed UAV/UGV fleet, supporting both student projects and faculty-led research.</li>
                     </ul>
                 </div>
                 <div class="timeline-item">
-                    <h4>Research Engineer — AugSense Lab</h4>
-                    <p class="meta">Dec 2019 – Aug 2021 · Trivandrum, IN</p>
+                    <h4>Research Engineer &mdash; AugSense Lab</h4>
+                    <p class="meta">Dec 2019 &ndash; Aug 2021 &middot; Trivandrum, IN</p>
                     <ul class="list">
-                        <li>Improved non-rigid cloud motion modeling with learning-based methods (SINDy) for weather prediction.</li>
-                        <li>Integrated 3D sensors on test robots and evaluated visual SLAM algorithms.</li>
+                        <li>Applied SINDy (sparse identification of nonlinear dynamics) to non-rigid cloud motion modeling, improving short-range weather prediction accuracy.</li>
+                        <li>Integrated 3D sensors on a test robot and benchmarked visual SLAM algorithms for indoor navigation.</li>
                     </ul>
                 </div>
             </div>
@@ -82,65 +80,51 @@
             <div class="section-header">
                 <h2>Education</h2>
             </div>
-            <div class="grid">
-                <article class="card">
-                    <h3>M. Eng in Embedded Systems Engineering</h3>
-                    <p class="meta">Fachhochschule Dortmund · Oct 2021 – present</p>
-                </article>
-                <article class="card">
-                    <h3>Erasmus+ Exchange Module, Low-power IoT Systems</h3>
-                    <p class="meta">KU Leuven · Mar 2022</p>
-                </article>
-                <article class="card">
-                    <h3>B. Tech in Electrical and Electronics Engineering</h3>
-                    <p class="meta">College of Engineering Trivandrum · Aug 2015 – May 2019</p>
-                </article>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>M. Eng in Embedded Systems Engineering</h4>
+                    <p class="meta">Fachhochschule Dortmund &middot; Oct 2021 &ndash; Aug 2024</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Erasmus+ Exchange</h4>
+                     <p class="meta">EHU, Bilbao &middot; Sep 2023</p>
+                     <p class="meta">NTNU, Trondheim &middot; Mar 2023</p>
+                    <p class="meta">KU Leuven, Ghent &middot; Mar 2022</p>
+                   
+                </div>
+                <div class="timeline-item">
+                    <h4>B. Tech in Electrical and Electronics Engineering</h4>
+                    <p class="meta">College of Engineering Trivandrum &middot; Aug 2015 &ndash; May 2019</p>
+                </div>
             </div>
         </section>
 
         <section class="section" id="projects">
             <div class="section-header">
-                <h2>Selected projects</h2>
-                <a href="projects.html">View all →</a>
+                <h2>Selected Projects</h2>
+                <a href="projects.html">All projects &rarr;</a>
             </div>
-            <div class="grid">
-                <article class="card">
-                    <h3>Spatial map building for indoor robotics</h3>
-                    <p>Evaluated RTAB-Map for 3D reconstruction, deployed on NVIDIA Jetson TX2 + ZED2, integrated with
-                        ROS for aerial mapping.</p>
-                    <a class="btn secondary" href="_projects/rtabmap.html">Demo & thesis ↗</a>
-                </article>
-                <article class="card">
-                    <h3>Autonomous rover via ARuco markers</h3>
-                    <p>ESP32-based rover performing path and task planning with marker-based localization; cloud
-                        messaging via AWS IoT.</p>
-                    <a class="btn secondary" href="_projects/rover.html">Watch demo ↗</a>
-                </article>
-                <article class="card">
-                    <h3>Truck platooning systems design</h3>
-                    <p>Systems engineering model for a truck platooning system from requirements through architecture,
-                        implemented in C++ and Python.</p>
-                </article>
-            </div>
-        </section>
-
-        <section class="section" id="awards">
-            <div class="section-header">
-                <h2>Awards</h2>
-            </div>
-            <div class="grid">
-                <article class="card">
-                    <h3>Robot Snake fellowship</h3>
-                    <p>Granted a fellowship and incubated by K-DISC for a robot snake project.</p>
-                </article>
-                <article class="card">
-                    <h3>Best Project Award — Bipedal Humanoid Robot</h3>
-                    <p>InnovExpo (IEDC/TCS) at College of Engineering Trivandrum.</p>
-                </article>
-                <article class="card">
-                    <h3>Best Innovator & Physics Subject Topper</h3>
-                    <p>Recognized by The Institution of Engineering and Technology; regional Physics award.</p>
-                </article>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Drone swarm platform &mdash; Crazyswarm2 / ROS2</h4>
+                    <p class="meta">TU Dortmund &middot; 2024 &ndash; present</p>
+                    <p style="color:var(--muted); font-size:0.9rem;">End-to-end swarm system for intralogistics: swarm coordination, task allocation, and safe multi-drone operation in constrained warehouse spaces.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Heterogeneous multi-robot demonstrators with WMS integration</h4>
+                    <p class="meta">TU Dortmund &middot; 2024 &ndash; present</p>
+                    <p style="color:var(--muted); font-size:0.9rem;">Full-stack demonstrators combining UAVs and UGVs with a live WMS — from robot drivers to task dispatching and real-time fleet state synchronisation.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Airborne 3D mapping &mdash; RTAB-Map on hexacopter</h4>
+                    <p class="meta">FH Dortmund &middot; 2022</p>
+                    <p style="color:var(--muted); font-size:0.9rem;">Deployed RTAB-Map on NVIDIA Jetson TX2 + ZED2 for real-time 3D reconstruction during flight. <a href="_projects/rtabmap.html">Demo &amp; thesis &rarr;</a></p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Marker-guided autonomous rover</h4>
+                    <p class="meta">FH Dortmund &middot; 2022</p>
+                    <p style="color:var(--muted); font-size:0.9rem;">ESP32 rover with vision-based localization (ARuco), task planning, and cloud command via AWS IoT. <a href="_projects/rover.html">Demo &rarr;</a></p>
+                </div>
             </div>
         </section>
 
@@ -148,46 +132,85 @@
             <div class="section-header">
                 <h2>Skills</h2>
             </div>
-            <div class="card">
-                <div class="tag-row">
-                    <span class="tag">Python</span>
-                    <span class="tag">C</span>
-                    <span class="tag">C++</span>
-                    <span class="tag">Matlab</span>
-                    <span class="tag">OpenCV</span>
-                    <span class="tag">PCL</span>
-                    <span class="tag">Open3D</span>
-                    <span class="tag">NumPy</span>
-                    <span class="tag">SciPy</span>
-                    <span class="tag">ROS</span>
-                    <span class="tag">ROS2</span>
-                    <span class="tag">GitHub / GitLab / Bitbucket</span>
-                    <span class="tag">Jetson TX1/TX2/Nano</span>
-                    <span class="tag">Raspberry Pi</span>
-                    <span class="tag">Beaglebone</span>
-                    <span class="tag">Arduino</span>
-                    <span class="tag">ESP32</span>
-                    <span class="tag">STM32</span>
-                    <span class="tag">Design patterns</span>
-                    <span class="tag">Linux / Windows / macOS</span>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Languages</h4>
+                    <div class="tag-row">
+                        <span class="tag">Python</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">C</span>
+                        <span class="tag">MATLAB</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <h4>Robotics &amp; Systems</h4>
+                    <div class="tag-row">
+                        <span class="tag">ROS2</span>
+                        <span class="tag">ROS</span>
+                        <span class="tag">Crazyswarm2</span>
+                        <span class="tag">Behavior Trees</span>
+                        <span class="tag">SLAM</span>
+                        <span class="tag">Nav2</span>
+                        <span class="tag">Gazebo</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <h4>Vision &amp; Sensing</h4>
+                    <div class="tag-row">
+                        <span class="tag">OpenCV</span>
+                        <span class="tag">PCL</span>
+                        <span class="tag">Open3D</span>
+                        <span class="tag">LiDAR</span>
+                        <span class="tag">Stereo vision</span>
+                        <span class="tag">Sensor fusion</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <h4>Embedded &amp; Hardware</h4>
+                    <div class="tag-row">
+                        <span class="tag">ESP32</span>
+                        <span class="tag">STM32</span>
+                        <span class="tag">Arduino</span>
+                        <span class="tag">Raspberry Pi</span>
+                        <span class="tag">Jetson TX1/TX2/Nano</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <h4>Tools &amp; Infrastructure</h4>
+                    <div class="tag-row">
+                        <span class="tag">Docker</span>
+                        <span class="tag">Git</span>
+                        <span class="tag">Linux</span>
+                        <span class="tag">AWS IoT</span>
+                        <span class="tag">NumPy / SciPy</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="awards">
+            <div class="section-header">
+                <h2>Awards &amp; Recognition</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Robot Snake Fellowship &mdash; K-DISC</h4>
+                    <p style="color:var(--muted); font-size:0.9rem;">Selected for government incubation and funding by Kerala Development and Innovation Strategic Council for a bio-inspired robot snake project.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Best Project &mdash; Bipedal Humanoid Robot</h4>
+                    <p style="color:var(--muted); font-size:0.9rem;">First place at InnovExpo (IEDC/TCS), College of Engineering Trivandrum.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Best Innovator &amp; Regional Physics Award</h4>
+                    <p style="color:var(--muted); font-size:0.9rem;">Recognised by the Institution of Engineering and Technology; top physics score in the region.</p>
                 </div>
             </div>
         </section>
 
-        <section class="section" id="contact">
-            <div class="section-header">
-                <h2>Contact</h2>
-            </div>
-            <div class="card">
-                <p>Reachable via <a href="mailto:aaron.xavier@tu-dortmund.de">aaron.xavier@tu-dortmund.de</a> or <a
-                        href="tel:+491745737242">+49 174 5737242</a>. Find me on <a
-                        href="https://www.linkedin.com/in/aaron-xavier/">LinkedIn</a> and <a
-                        href="https://www.researchgate.net/profile/Aaron-Xavier">ResearchGate</a>.</p>
-            </div>
-        </section>
+        
 
         <footer class="footer">
-            Concise CV view · <a href="index.html">Home</a> · <a href="projects.html">Projects</a>
+            <a href="index.html">Home</a> &middot; <a href="projects.html">Projects</a>
         </footer>
     </div>
 </body>
