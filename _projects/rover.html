@@ -1,37 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="stylesheet" href="https://latex.now.sh/style.min.css" />
-    <link rel="stylesheet" href="style.css" />
+    <title>Autonomous Rover · Aaron Xavier</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
 </head>
 
-
 <body>
-    <div class="container">
-        <h1>Path and Task planning of an Autonomous Rover using Markers</h1>
-        <p>An autonomous robot capable of planning a path and navigating to the given target(s) while avoiding
-            the obstacles in its path was developed. The system was based on an ESP32 platform and communicated
-            with the localization setup on a local computer via AWS IoT. The firmware was written in C++ and
-            used PlatformIO for interfacing with the microcontroller. The local computer used OpenCV for image
-            processing and ARuco markers for border geometry estimation and rover localization.</p>
-        <h2>Project Demo</h2>
-        <br />
-        <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/cCTWr5Sx7Mo?si=mmslxpGNBP0IjkKF&amp;start=25"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <br />
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/CwT9ObRDn_Y?si=KANzx1NNDHweSdIq&amp;start=7"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <footer>
-            <p>Back to the <a href="../projects.html">Projects</a></p>
+    <div class="page">
+        <nav class="nav">
+            <div class="brand">
+                <span class="dot"></span>
+                <span>Aaron Xavier</span>
+            </div>
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="../projects.html">Projects</a>
+                <a href="../resume.html">CV</a>
+                <a href="../experience.html">Experience</a>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <div class="eyebrow"><span class="signal"></span> Project</div>
+            <h1>Path and task planning of an autonomous rover using markers</h1>
+            <p class="lead">Built an ESP32-based rover that plans routes and executes tasks using ARuco marker geometry,
+                cloud messaging via AWS IoT, and OpenCV processing on a host computer.</p>
+            <div class="actions">
+                <span class="pill">OpenCV</span>
+                <span class="pill">AWS IoT</span>
+                <span class="pill">ESP32</span>
+            </div>
+        </header>
+
+        <section class="section">
+            <div class="section-header">
+                <h2>Project demo</h2>
+            </div>
+            <div class="grid">
+                <article class="card">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/cCTWr5Sx7Mo?si=mmslxpGNBP0IjkKF&amp;start=25"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </article>
+                <article class="card">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/CwT9ObRDn_Y?si=KANzx1NNDHweSdIq&amp;start=7"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </article>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <a href="../projects.html">Back to projects</a> · <a href="../index.html">Home</a>
         </footer>
     </div>
 </body>

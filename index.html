@@ -5,82 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aaron Xavier</title>
-    <link rel="stylesheet" href="https://latex.now.sh/style.min.css" />
-    <style>
-        body {
-            font-family: "Computer Modern", "Latin Modern", sans-serif;
-            margin: 1;
-            padding: 0;
-            background-color: #f0f0f0;
-            color: #333;
-            text-align: center;
-            /* Center align content */
-        }
-
-        .cover {
-            background-image: url('cover_image.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: #000000;
-            padding: 20px;
-        }
-
-        h1,
-        h2,
-        h3 {
-            color: #000000;
-            margin: 1;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-
-        h2 {
-            font-size: 1.5rem;
-            margin-bottom: 20px;
-        }
-
-        p {
-            text-align: center;
-            line-height: 20px;
-
-        }
-
-        .contact-info {
-            margin-bottom: 20px;
-        }
-
-        .contact-info p {
-            margin: 5px 1;
-        }
-
-        .contact-info a {
-            color: #000000;
-            text-decoration: none;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="cover">
-        <h1>Aaron Xavier</h1>
-        <h2>Robotics, Embedded Systems</h2>
-        <div class="contact-info">
-            <p>Take a look at my <a href="resume.html"> Resume</a> or find me on <a
-                    href="https://www.linkedin.com/in/aaron-xavier/">LinkedIn</a></p>
-            <p>Reachable via <a
-                    href="mailto:aaron.xavier@tu-dortmund.de">aaron.xavier@tu-dortmund.de</a> and <a
-                    href="tel:+491745737242">+49 174 5737242</a></p>
-        </div>
+    <div class="page">
+        <nav class="nav">
+            <a class="brand" href="index.html">Aaron Xavier</a>
+            <div class="nav-links">
+                <a href="resume.html">CV</a>
+                <a href="projects.html">Projects</a>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <h1>Aaron Xavier</h1>
+            <p class="lead">Research Associate &mdash; Robotics &amp; Autonomous Systems</p>
+            <p class="lead">Chair of Material Handling and Warehousing (FLW), TU Dortmund</p>
+        </header>
+
+        <section class="section">
+            <p>I design and build autonomous multi-robot systems for intralogistics. At TU Dortmund I am developing a drone swarm platform on Crazyswarm2 and a series of multi-robot demonstrators that combine UAVs and ground robots with live warehouse management systems — work that sits at the boundary of robotics research and industrial deployment.</p>
+            <p>Before that I was at <strong>Robert Bosch GmbH</strong>, where I designed a behavior-tree-based deliberative architecture for mobile robot navigation and built LiDAR-camera sensor fusion pipelines for automotive perception. My background spans embedded systems, ROS2, computer vision, and full-stack robot software from microcontrollers to cloud messaging.</p>
+            <p><a href="mailto:aaron.xavier@tu-dortmund.de">aaron.xavier@tu-dortmund.de</a> &middot; <a href="https://www.linkedin.com/in/aaron-xavier/">LinkedIn</a> &middot; <a href="https://www.researchgate.net/profile/Aaron-Xavier">ResearchGate</a></p>
+            <div style="margin-top:20px;">
+                <a class="btn primary" href="resume.html">View CV</a>
+                <a class="btn" href="projects.html" style="margin-left:10px;">Projects</a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            &copy; 2025 Aaron Xavier
+        </footer>
     </div>
 </body>
 
