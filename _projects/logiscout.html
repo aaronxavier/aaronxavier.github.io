@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogiScout · Aaron Xavier</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="page">
+        <nav class="nav">
+            <a class="brand" href="../index.html">Aaron Xavier</a>
+            <div class="nav-links">
+                <a href="../resume.html">CV</a>
+                <a href="../projects.html">Projects</a>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <h1>LogiScout</h1>
+            <p class="lead">Dataset generation for logistics perception &mdash; TU Dortmund, 2026 &ndash; present</p>
+        </header>
+
+        <section class="section">
+            <div class="section-header">
+                <h2>The sensor stack</h2>
+            </div>
+            <p>Ten time-synchronised sensors &mdash; three LiDARs, two depth cameras and five global shutter RGB cameras &mdash; record a
+                logistics environment simultaneously, producing data at gigabytes per second. Synchronisation across the
+                stack is what makes the recordings usable as training data: every LiDAR return has a matching set of
+                camera frames at the same instant. Built the data preparation and processing pipeline: taking terabyte-scale raw recordings off the rig and
+                turning them into aligned, indexed material that annotation tooling and model training can actually
+                consume.</p>
+            <div class="tag-row">
+                <span class="tag">3 &times; LiDAR</span>
+                <span class="tag">2 &times; depth camera</span>
+                <span class="tag">5 &times; RGB cameras</span>
+                <span class="tag">Time synchronisation</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <h2>Sample data</h2>
+            </div>
+            <img src="../_files/logiscout.jpg" style="width:100%;"
+                alt="Merged point cloud from the LogiScout multi-LiDAR rig, each sensor coloured differently">
+            <p class="meta">Merged point cloud from the three-LiDAR stack, coloured per sensor.</p>
+        </section>
+
+
+        <footer class="footer">
+            <a href="../projects.html">Back to projects</a> &middot; <a href="../index.html">Home</a>
+        </footer>
+    </div>
+</body>
+
+</html>
