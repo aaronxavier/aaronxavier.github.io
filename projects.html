@@ -56,6 +56,18 @@
                         <span class="tag">ROS2</span>
                         <span class="tag">Intralogistics</span>
                     </div>
+                    <div style="position:relative; width:100%; height:600px; max-height:80vh; margin:1rem 0 0.5rem; border-radius:6px; overflow:hidden;">
+                        <iframe id="rr-robochief" width="100%" height="100%" style="position:absolute; inset:0; border:0;" loading="lazy" allow="fullscreen; local-network-access" allowfullscreen title="RoboChief localization replay"></iframe>
+                    </div>
+                    <p style="color:var(--muted); font-size:0.85rem;">High-speed localization trial replayed in <a href="https://rerun.io">Rerun</a>: Vicon ground truth vs. LiDAR scan-to-map estimate, each scan coloured by its residual to the prior map. First load takes a few seconds. <a id="rr-robochief-full" target="_blank" rel="noopener">Open full-page &#8599;</a></p>
+                    <script>
+                        // ponytail: rrd URL resolved from the page so the same markup works on localhost and in prod
+                        (function () {
+                            var u = 'https://app.rerun.io/version/0.35.0/?url=' + encodeURIComponent(new URL('_files/robochief_run10.rrd', location.href)) + '&theme=dark';
+                            document.getElementById('rr-robochief').src = u;
+                            document.getElementById('rr-robochief-full').href = u;
+                        })();
+                    </script>
                     <a class="btn" href="https://robochief.github.io/">RoboChief &rarr;</a>
                 </div>
                 <div class="timeline-item">
